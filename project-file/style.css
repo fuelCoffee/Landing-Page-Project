@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header,
+.hero {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 100px;
+  margin: 0px;
+}
+
+.left-header {
+  display: flex;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.right-header {
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+  gap: 16px;
+}
+
+.hero {
+  display: flex;
+}
