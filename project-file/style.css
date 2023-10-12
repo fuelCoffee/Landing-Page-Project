@@ -9,6 +9,7 @@ body {
   justify-content: stretch;
   margin: 0px;
   padding: 0px;
+  /* height: 100vh; */
 }
 
 .content {
@@ -46,16 +47,22 @@ body {
 
 .hero {
   display: flex;
-  height: 300px;
+  height: 400px;
   justify-content: center;
   align-items: center;
   padding: 10px 130px;
+  gap: 50px;
 }
 
 .right-hero {
   display: flex;
   flex: 1 1 50%;
   align-items: center;
+  background-color: rgb(150, 150, 150);
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
 }
 
 .left-hero {
@@ -74,4 +81,12 @@ body {
 }
 
 button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 28px;
+  font-size: 16px;
+  margin-top: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  border-style: none;
 }
