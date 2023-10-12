@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -5,6 +9,13 @@ body {
   justify-content: stretch;
   margin: 0px;
   padding: 0px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: stretch;
+  align-items: stretch;
 }
 
 .header,
@@ -16,7 +27,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 10px 100px;
+  padding: 10px 130px;
   margin: 0px;
 }
 
@@ -30,9 +41,37 @@ body {
   display: flex;
   font-size: 18px;
   color: #e5e7eb;
-  gap: 16px;
+  gap: 24px;
 }
 
 .hero {
   display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 130px;
+}
+
+.right-hero {
+  display: flex;
+  flex: 1 1 50%;
+  align-items: center;
+}
+
+.left-hero {
+  flex: 1 1 50%;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
 }
